@@ -15,7 +15,7 @@ namespace Ket4yii\PHPCensor\Deployer\Plugin;
 use PHPCensor\Builder;
 use PHPCensor\Model\Build;
 
-class Deployer implements \PHPCensor\Plugin
+class Deployer extends \PHPCensor\Plugin
 {
 
     protected $phpcensor; 
