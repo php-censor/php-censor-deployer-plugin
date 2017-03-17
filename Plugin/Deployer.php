@@ -148,15 +148,15 @@ class Deployer extends \PHPCensor\Plugin
             $options[] = 'deploy';
         }
 
-        if (empty($config['stage'])) {
+        if (!empty($config['stage'])) {
             $options[] = $config['stage'];
         }
 
-        if (empty($config['verbosity'])) {
+        if (!empty($config['verbosity'])) {
             $options[] = $this->getVerbosityOption($config['verbosity']);
         }
 
-        if (empty($config['file'])) {
+        if (!empty($config['file'])) {
             $options[] = '--file=' . $config['file'];
         }
 
