@@ -2,6 +2,10 @@
 
 Simple plugin for [Deployer](http://deployer.org)
 
+# Installation
+
+First of all - `composer require ket4yii/phpcensor-deployer-plugin`
+
 # How to use
 
 Keyword of this plugin is simple. It means that you just need to define branch 
