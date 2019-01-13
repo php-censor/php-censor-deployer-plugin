@@ -1,3 +1,7 @@
+**This package is abandoned and no longer maintained. The author suggests using the 
+[build-in PHP Censor plugin](https://github.com/php-censor/php-censor/blob/master/docs/en/plugins/deployer_org.md) 
+instead.**
+
 # PHPCensor-Deployer-Plugin
 
 Simple plugin for [Deployer](http://deployer.org)
